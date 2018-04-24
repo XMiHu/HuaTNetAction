@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HuaTNetAction_Example' do
+  pod 'HuaTNetAction', :path => '../'
+
+  target 'HuaTNetAction_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
