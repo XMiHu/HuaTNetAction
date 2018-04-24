@@ -1,0 +1,16 @@
+PODS:
+  - HuaTNetAction (0.1.0)
+
+DEPENDENCIES:
+  - HuaTNetAction (from `../`)
+
+EXTERNAL SOURCES:
+  HuaTNetAction:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HuaTNetAction: 3d4abd205a8c521316954b71875bd0a0e83ec9d1
+
+PODFILE CHECKSUM: db571363c1f3d72a6260a1d7621cd6db652e5deb
+
+COCOAPODS: 1.5.0

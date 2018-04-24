@@ -1,0 +1,6 @@
+framework module HuaTNetAction {
+  umbrella header "HuaTNetAction-umbrella.h"
+
+  export *
+  module * { export * }
+}

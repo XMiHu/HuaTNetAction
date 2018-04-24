@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		097E524989BDEC4B9F1D608F65EA9BB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1A12D92B25EDACE184A235B127108514 /* Pods-HuaTNetAction_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 225A6B2FF2C118C703FC5D8D48ED826C /* Pods-HuaTNetAction_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43593D8EDB5CC279177C40BEEEBF11CD /* Pods-HuaTNetAction_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB044F892564574B12C6ADC05195C37 /* Pods-HuaTNetAction_Example-dummy.m */; };
+		4F92FD3BDA0A43B0532EBD67FD6D4173 /* HuaTNetAction-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F83E3915223893747F46085C7298BC6A /* HuaTNetAction-dummy.m */; };
+		8D63FA204E3E153F04E0FCAF8CC6EBD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A0221066208EC6310076786C /* HuaTNetTool.h in Headers */ = {isa = PBXBuildFile; fileRef = A0221064208EC6310076786C /* HuaTNetTool.h */; };
+		A0221067208EC6310076786C /* HuaTNetTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A0221065208EC6310076786C /* HuaTNetTool.m */; };
+		BD6565AA14DFFB8092DEB0FBCCD17E5F /* Pods-HuaTNetAction_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F84110BD29FFF124E0A0D93713B9DBC /* Pods-HuaTNetAction_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C60B2E4AF8235344629739FBC75268D3 /* HuaTNetAction-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B64E59F4099533C585F6A23694A04E6 /* HuaTNetAction-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D80199BA1179F4103D0D970E6211B620 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E02E04FE3F0857D248AF6ADD9206D94 /* ReplaceMe.m */; };
+		DD8D352DE104C1BEAE24BF29535B1BFA /* Pods-HuaTNetAction_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFCCBAD599A0DB5C4441415BED831BF /* Pods-HuaTNetAction_Tests-dummy.m */; };
+		F0313B2F8BCBDA71F5F436721119CC66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F90AEFCF55D5DA4BC66F97C9CC1AE11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01771A43170D6AB76695D53100CB1970;
+			remoteInfo = HuaTNetAction;
+		};
+		381DDAAE9A28ED5E56EB479C0A8A3659 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD26D9BDC1531D83A8C0090230B4BBBD;
+			remoteInfo = "Pods-HuaTNetAction_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		092B43B60E9AF04E5AC629FF55896E41 /* Pods-HuaTNetAction_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HuaTNetAction_Tests.modulemap"; sourceTree = "<group>"; };
+		0CF0E92297E726001BE94DD22FE95E66 /* Pods_HuaTNetAction_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuaTNetAction_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		225A6B2FF2C118C703FC5D8D48ED826C /* Pods-HuaTNetAction_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HuaTNetAction_Tests-umbrella.h"; sourceTree = "<group>"; };
+		261B5FF96ABE1AFA9D03D382E450D72E /* HuaTNetAction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HuaTNetAction.xcconfig; sourceTree = "<group>"; };
+		3B64E59F4099533C585F6A23694A04E6 /* HuaTNetAction-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HuaTNetAction-umbrella.h"; sourceTree = "<group>"; };
+		3C692AF18AFCB76DABDAA221A0AE31D3 /* Pods-HuaTNetAction_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HuaTNetAction_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4FA08501299839996D6706E96438999D /* Pods-HuaTNetAction_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HuaTNetAction_Example.release.xcconfig"; sourceTree = "<group>"; };
+		599D9107697BBBB191C32A5565DFB654 /* Pods-HuaTNetAction_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HuaTNetAction_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5FABAEC4237DBD6C842E08408B03ED18 /* Pods-HuaTNetAction_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HuaTNetAction_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69375C8CCB54D5750303060BF4D580E3 /* Pods-HuaTNetAction_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HuaTNetAction_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		712EE9FA9B3F971C5BB45D226D4B78F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		718DC7EEA5689389856EA9E4DD7E98A1 /* Pods-HuaTNetAction_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HuaTNetAction_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		75BFE74B6BEA90D05F7E992058255023 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80BA3133627374595557A690FA98A6DE /* Pods-HuaTNetAction_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HuaTNetAction_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8E9B210A1CC94855319272BBEBC798C2 /* Pods-HuaTNetAction_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HuaTNetAction_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8F84110BD29FFF124E0A0D93713B9DBC /* Pods-HuaTNetAction_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HuaTNetAction_Example-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96EFCDC6FEEA94E984FD254CF151943E /* Pods-HuaTNetAction_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HuaTNetAction_Example-resources.sh"; sourceTree = "<group>"; };
+		9E02E04FE3F0857D248AF6ADD9206D94 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = HuaTNetAction/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		A0221064208EC6310076786C /* HuaTNetTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuaTNetTool.h; sourceTree = "<group>"; };
+		A0221065208EC6310076786C /* HuaTNetTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuaTNetTool.m; sourceTree = "<group>"; };
+		AD6B6E307EA0AC6D0AF3146141202D11 /* HuaTNetAction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HuaTNetAction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2E1223FE53D58C00A24B005E969F8D0 /* Pods-HuaTNetAction_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HuaTNetAction_Tests-resources.sh"; sourceTree = "<group>"; };
+		B3EC9C99FB607B2E0D0FF2A6BFA144CE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BFA1B0531AFDEA89CFE8C516572E21FA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C0EF981F9F9858B6FE5E466828FDB92D /* Pods-HuaTNetAction_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HuaTNetAction_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C83A8A9BC4C354985FD0D1E2AD971CF0 /* Pods-HuaTNetAction_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HuaTNetAction_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CF912A0F0947198A9EE0DA9DE479A530 /* HuaTNetAction.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HuaTNetAction.modulemap; sourceTree = "<group>"; };
+		CFDC7002049EBFEC89E28744FCCD3B8D /* Pods_HuaTNetAction_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuaTNetAction_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D164C1B56D4972D27547C4C165A7B88E /* HuaTNetAction-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HuaTNetAction-prefix.pch"; sourceTree = "<group>"; };
+		D88CE504052EE51ECF8C049FA6046C18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEB044F892564574B12C6ADC05195C37 /* Pods-HuaTNetAction_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HuaTNetAction_Example-dummy.m"; sourceTree = "<group>"; };
+		DFFCCBAD599A0DB5C4441415BED831BF /* Pods-HuaTNetAction_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HuaTNetAction_Tests-dummy.m"; sourceTree = "<group>"; };
+		E871816144E5F886191E09421D2F778A /* Pods-HuaTNetAction_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HuaTNetAction_Example.modulemap"; sourceTree = "<group>"; };
+		F49E7A43FB1B6C870D9FF9F9F36B7548 /* HuaTNetAction.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HuaTNetAction.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F83E3915223893747F46085C7298BC6A /* HuaTNetAction-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HuaTNetAction-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46EC3DE587770DF6BD2D68DBF5B1F12B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0313B2F8BCBDA71F5F436721119CC66 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F600F64DC67DFB69DD7A122636D515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D63FA204E3E153F04E0FCAF8CC6EBD1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D02502481240BFDB0E9B01555D476EAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097E524989BDEC4B9F1D608F65EA9BB6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D6B3B042AFF7149C79CDFD0AB51CC0B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				97C562BDE68E6047A42D0D3D61582FDA /* Pods-HuaTNetAction_Example */,
+				11CDA5F1FABE31534E8EBABA02A56D21 /* Pods-HuaTNetAction_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1165AE4B98517CA72B417156664B5566 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF912A0F0947198A9EE0DA9DE479A530 /* HuaTNetAction.modulemap */,
+				261B5FF96ABE1AFA9D03D382E450D72E /* HuaTNetAction.xcconfig */,
+				F83E3915223893747F46085C7298BC6A /* HuaTNetAction-dummy.m */,
+				D164C1B56D4972D27547C4C165A7B88E /* HuaTNetAction-prefix.pch */,
+				3B64E59F4099533C585F6A23694A04E6 /* HuaTNetAction-umbrella.h */,
+				75BFE74B6BEA90D05F7E992058255023 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HuaTNetAction";
+			sourceTree = "<group>";
+		};
+		11CDA5F1FABE31534E8EBABA02A56D21 /* Pods-HuaTNetAction_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D88CE504052EE51ECF8C049FA6046C18 /* Info.plist */,
+				092B43B60E9AF04E5AC629FF55896E41 /* Pods-HuaTNetAction_Tests.modulemap */,
+				8E9B210A1CC94855319272BBEBC798C2 /* Pods-HuaTNetAction_Tests-acknowledgements.markdown */,
+				80BA3133627374595557A690FA98A6DE /* Pods-HuaTNetAction_Tests-acknowledgements.plist */,
+				DFFCCBAD599A0DB5C4441415BED831BF /* Pods-HuaTNetAction_Tests-dummy.m */,
+				69375C8CCB54D5750303060BF4D580E3 /* Pods-HuaTNetAction_Tests-frameworks.sh */,
+				B2E1223FE53D58C00A24B005E969F8D0 /* Pods-HuaTNetAction_Tests-resources.sh */,
+				225A6B2FF2C118C703FC5D8D48ED826C /* Pods-HuaTNetAction_Tests-umbrella.h */,
+				718DC7EEA5689389856EA9E4DD7E98A1 /* Pods-HuaTNetAction_Tests.debug.xcconfig */,
+				5FABAEC4237DBD6C842E08408B03ED18 /* Pods-HuaTNetAction_Tests.release.xcconfig */,
+			);
+			name = "Pods-HuaTNetAction_Tests";
+			path = "Target Support Files/Pods-HuaTNetAction_Tests";
+			sourceTree = "<group>";
+		};
+		129BE794DFB02652CD072D4FAA68BBB6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBB02BA6A284C5351ADE4DC9D1A99DD2 /* HuaTNetAction */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				129BE794DFB02652CD072D4FAA68BBB6 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C004EFBBC655A800D059139E8A3B4A42 /* Products */,
+				0D6B3B042AFF7149C79CDFD0AB51CC0B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		97C562BDE68E6047A42D0D3D61582FDA /* Pods-HuaTNetAction_Example */ = {
+			isa = PBXGroup;
+			children = (
+				712EE9FA9B3F971C5BB45D226D4B78F1 /* Info.plist */,
+				E871816144E5F886191E09421D2F778A /* Pods-HuaTNetAction_Example.modulemap */,
+				C0EF981F9F9858B6FE5E466828FDB92D /* Pods-HuaTNetAction_Example-acknowledgements.markdown */,
+				599D9107697BBBB191C32A5565DFB654 /* Pods-HuaTNetAction_Example-acknowledgements.plist */,
+				DEB044F892564574B12C6ADC05195C37 /* Pods-HuaTNetAction_Example-dummy.m */,
+				3C692AF18AFCB76DABDAA221A0AE31D3 /* Pods-HuaTNetAction_Example-frameworks.sh */,
+				96EFCDC6FEEA94E984FD254CF151943E /* Pods-HuaTNetAction_Example-resources.sh */,
+				8F84110BD29FFF124E0A0D93713B9DBC /* Pods-HuaTNetAction_Example-umbrella.h */,
+				C83A8A9BC4C354985FD0D1E2AD971CF0 /* Pods-HuaTNetAction_Example.debug.xcconfig */,
+				4FA08501299839996D6706E96438999D /* Pods-HuaTNetAction_Example.release.xcconfig */,
+			);
+			name = "Pods-HuaTNetAction_Example";
+			path = "Target Support Files/Pods-HuaTNetAction_Example";
+			sourceTree = "<group>";
+		};
+		A0221063208EC6170076786C /* NetTool */ = {
+			isa = PBXGroup;
+			children = (
+				A0221064208EC6310076786C /* HuaTNetTool.h */,
+				A0221065208EC6310076786C /* HuaTNetTool.m */,
+			);
+			name = NetTool;
+			path = HuaTNetAction/Classes/NetTool;
+			sourceTree = "<group>";
+		};
+		A53D38C501D0F22A1885854EC5BC1667 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F49E7A43FB1B6C870D9FF9F9F36B7548 /* HuaTNetAction.podspec */,
+				BFA1B0531AFDEA89CFE8C516572E21FA /* LICENSE */,
+				B3EC9C99FB607B2E0D0FF2A6BFA144CE /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C004EFBBC655A800D059139E8A3B4A42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD6B6E307EA0AC6D0AF3146141202D11 /* HuaTNetAction.framework */,
+				0CF0E92297E726001BE94DD22FE95E66 /* Pods_HuaTNetAction_Example.framework */,
+				CFDC7002049EBFEC89E28744FCCD3B8D /* Pods_HuaTNetAction_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DBB02BA6A284C5351ADE4DC9D1A99DD2 /* HuaTNetAction */ = {
+			isa = PBXGroup;
+			children = (
+				9E02E04FE3F0857D248AF6ADD9206D94 /* ReplaceMe.m */,
+				A0221063208EC6170076786C /* NetTool */,
+				A53D38C501D0F22A1885854EC5BC1667 /* Pod */,
+				1165AE4B98517CA72B417156664B5566 /* Support Files */,
+			);
+			name = HuaTNetAction;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		99D57DD4FA931EC6180A3F014E6A5A7E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0221066208EC6310076786C /* HuaTNetTool.h in Headers */,
+				C60B2E4AF8235344629739FBC75268D3 /* HuaTNetAction-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5DB02489B7C875CFFFAE496F9EBC82A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6565AA14DFFB8092DEB0FBCCD17E5F /* Pods-HuaTNetAction_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F67EBEBA89F43FC8264FDA29542B92 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A12D92B25EDACE184A235B127108514 /* Pods-HuaTNetAction_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01771A43170D6AB76695D53100CB1970 /* HuaTNetAction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4906B1446C10DCE27481924D0875B6B7 /* Build configuration list for PBXNativeTarget "HuaTNetAction" */;
+			buildPhases = (
+				0D4BF8A48DEB8A71FEAEB8A9497FC6C8 /* Sources */,
+				D02502481240BFDB0E9B01555D476EAE /* Frameworks */,
+				99D57DD4FA931EC6180A3F014E6A5A7E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HuaTNetAction;
+			productName = HuaTNetAction;
+			productReference = AD6B6E307EA0AC6D0AF3146141202D11 /* HuaTNetAction.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7204A756619ED40C12CAFAE5CA9B977C /* Pods-HuaTNetAction_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55ABB7564CAD7F260789AB1927BC840B /* Build configuration list for PBXNativeTarget "Pods-HuaTNetAction_Tests" */;
+			buildPhases = (
+				0B3E6CCA300D6232B18ABC45C54AEA7B /* Sources */,
+				46EC3DE587770DF6BD2D68DBF5B1F12B /* Frameworks */,
+				C1F67EBEBA89F43FC8264FDA29542B92 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FC9AD9EE1FDFE04074F6DD95D4BE9AC /* PBXTargetDependency */,
+			);
+			name = "Pods-HuaTNetAction_Tests";
+			productName = "Pods-HuaTNetAction_Tests";
+			productReference = CFDC7002049EBFEC89E28744FCCD3B8D /* Pods_HuaTNetAction_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AD26D9BDC1531D83A8C0090230B4BBBD /* Pods-HuaTNetAction_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72BD3BE91B4E88CAB15CE01430F4E92C /* Build configuration list for PBXNativeTarget "Pods-HuaTNetAction_Example" */;
+			buildPhases = (
+				584698D5032311143B865601C8F8E273 /* Sources */,
+				55F600F64DC67DFB69DD7A122636D515 /* Frameworks */,
+				A5DB02489B7C875CFFFAE496F9EBC82A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DEE7BA5158A720945995F5E21688732 /* PBXTargetDependency */,
+			);
+			name = "Pods-HuaTNetAction_Example";
+			productName = "Pods-HuaTNetAction_Example";
+			productReference = 0CF0E92297E726001BE94DD22FE95E66 /* Pods_HuaTNetAction_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C004EFBBC655A800D059139E8A3B4A42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01771A43170D6AB76695D53100CB1970 /* HuaTNetAction */,
+				AD26D9BDC1531D83A8C0090230B4BBBD /* Pods-HuaTNetAction_Example */,
+				7204A756619ED40C12CAFAE5CA9B977C /* Pods-HuaTNetAction_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B3E6CCA300D6232B18ABC45C54AEA7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD8D352DE104C1BEAE24BF29535B1BFA /* Pods-HuaTNetAction_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D4BF8A48DEB8A71FEAEB8A9497FC6C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F92FD3BDA0A43B0532EBD67FD6D4173 /* HuaTNetAction-dummy.m in Sources */,
+				D80199BA1179F4103D0D970E6211B620 /* ReplaceMe.m in Sources */,
+				A0221067208EC6310076786C /* HuaTNetTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584698D5032311143B865601C8F8E273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43593D8EDB5CC279177C40BEEEBF11CD /* Pods-HuaTNetAction_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DEE7BA5158A720945995F5E21688732 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HuaTNetAction;
+			target = 01771A43170D6AB76695D53100CB1970 /* HuaTNetAction */;
+			targetProxy = 0F90AEFCF55D5DA4BC66F97C9CC1AE11 /* PBXContainerItemProxy */;
+		};
+		9FC9AD9EE1FDFE04074F6DD95D4BE9AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HuaTNetAction_Example";
+			target = AD26D9BDC1531D83A8C0090230B4BBBD /* Pods-HuaTNetAction_Example */;
+			targetProxy = 381DDAAE9A28ED5E56EB479C0A8A3659 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33403221853C492CD783F79F4C240211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 261B5FF96ABE1AFA9D03D382E450D72E /* HuaTNetAction.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HuaTNetAction/HuaTNetAction-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HuaTNetAction/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HuaTNetAction/HuaTNetAction.modulemap";
+				PRODUCT_MODULE_NAME = HuaTNetAction;
+				PRODUCT_NAME = HuaTNetAction;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		94BF50AB5DC1EF12ECEED1EC8EACB49C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FA08501299839996D6706E96438999D /* Pods-HuaTNetAction_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HuaTNetAction_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HuaTNetAction_Example/Pods-HuaTNetAction_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D24936A174835C841E82FBA13854634D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FABAEC4237DBD6C842E08408B03ED18 /* Pods-HuaTNetAction_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HuaTNetAction_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HuaTNetAction_Tests/Pods-HuaTNetAction_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D35CA69E0EEAFC0292167EB8E9C06457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C83A8A9BC4C354985FD0D1E2AD971CF0 /* Pods-HuaTNetAction_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HuaTNetAction_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HuaTNetAction_Example/Pods-HuaTNetAction_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E284FD309664C872EC4C9C2F2CC12C32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 718DC7EEA5689389856EA9E4DD7E98A1 /* Pods-HuaTNetAction_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HuaTNetAction_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HuaTNetAction_Tests/Pods-HuaTNetAction_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E30D8980E661A913B47C0F606F512A62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 261B5FF96ABE1AFA9D03D382E450D72E /* HuaTNetAction.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HuaTNetAction/HuaTNetAction-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HuaTNetAction/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HuaTNetAction/HuaTNetAction.modulemap";
+				PRODUCT_MODULE_NAME = HuaTNetAction;
+				PRODUCT_NAME = HuaTNetAction;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4906B1446C10DCE27481924D0875B6B7 /* Build configuration list for PBXNativeTarget "HuaTNetAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33403221853C492CD783F79F4C240211 /* Debug */,
+				E30D8980E661A913B47C0F606F512A62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55ABB7564CAD7F260789AB1927BC840B /* Build configuration list for PBXNativeTarget "Pods-HuaTNetAction_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E284FD309664C872EC4C9C2F2CC12C32 /* Debug */,
+				D24936A174835C841E82FBA13854634D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72BD3BE91B4E88CAB15CE01430F4E92C /* Build configuration list for PBXNativeTarget "Pods-HuaTNetAction_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35CA69E0EEAFC0292167EB8E9C06457 /* Debug */,
+				94BF50AB5DC1EF12ECEED1EC8EACB49C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
